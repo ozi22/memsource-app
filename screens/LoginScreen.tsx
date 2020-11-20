@@ -33,7 +33,13 @@ const LoginScreen: FC = () => {
         <Controller
           control={control}
           render={({ onChange, onBlur, value }) => (
-            <TextInput style={styles.input} onBlur={onBlur} onChangeText={(value) => onChange(value)} value={value} />
+            <TextInput
+              style={styles.input}
+              onBlur={onBlur}
+              onChangeText={(value) => onChange(value)}
+              value={value}
+              placeholder="User Name"
+            />
           )}
           name="userName"
           rules={{ required: true }}
@@ -51,6 +57,7 @@ const LoginScreen: FC = () => {
               onChangeText={(value) => onChange(value)}
               value={value}
               secureTextEntry={true}
+              placeholder="Password"
             />
           )}
           name="password"
