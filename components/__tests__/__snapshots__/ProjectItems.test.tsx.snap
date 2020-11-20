@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectItems should render correctly 1`] = `
+<RCTScrollView
+  style={
+    Object {
+      "backgroundColor": "#f3f7f9",
+      "flex": 1,
+      "margin": 15,
+    }
+  }
+>
+  <View />
+</RCTScrollView>
+`;
